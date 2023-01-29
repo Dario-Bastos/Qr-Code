@@ -1,0 +1,40 @@
+body{
+    font-family: Montserrat;
+    background-color: deepskyblue;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.container .fundo{
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 12px 0;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.container .fundo .imagem-qr-code{
+    width: 550px;
+    border-radius: 15px;
+}
+
+.container .fundo .descricao{
+    width: 550px;
+    margin: auto;
+    padding: 20px 0 0 0;
+}
+
+.container .fundo .descricao h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.container .fundo .descricao p{
+    font-weight: 300;
+    font-size: 18px;
+    padding: 10px 0 0 0;
+}

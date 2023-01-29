@@ -1,0 +1,41 @@
+@media (max-width: 1200px){
+    .container .fundo {
+        margin: 25px 0 0 0;
+    }
+}
+
+@media (max-width:1000px){
+    .container .fundo{
+        margin: 100px 0 0 0;
+    }
+}
+
+@media(max-width:500px){
+    .container{
+        max-width: 300px;
+        justify-content: center;
+    }
+
+    .container .fundo{
+        width: 100%;
+        margin: 130px 0 0 0;
+        padding: 15px 0 22px 0;
+    }
+
+    .container .fundo .imagem-qr-code{
+       width: 90%;
+    }
+
+    .container .fundo .descricao {
+        width: 90%;
+    }
+
+    .container .fundo .descricao h1{
+        font-size: 21px;
+
+    }
+
+    .container .fundo .descricao p{
+        font-size: 15px;
+    }
+}
